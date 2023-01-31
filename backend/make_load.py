@@ -8,7 +8,7 @@ import pika
 
 x = 0
 letters = string.ascii_lowercase
-credentials = pika.PlainCredentials('python', 'G!tK_P_ZmB4qUUV')
+credentials = pika.PlainCredentials('pika_user', 'pika_password')
 
 try:
     connection = pika.BlockingConnection(
