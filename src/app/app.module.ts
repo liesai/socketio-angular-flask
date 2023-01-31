@@ -6,7 +6,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { WishlistComponent } from './services/components/wishlist.components';
 import { SocketIoModule, SocketIoConfig  } from 'ngx-socket-io';
 
-const config: SocketIoConfig = { url: 'http://localhost:5000', options: { } };
+const config: SocketIoConfig = { url: 'http://localhost:8080', options: { } };
 
 @NgModule({
   declarations: [
