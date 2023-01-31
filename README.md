@@ -25,3 +25,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# Python
+
+## Install python packages
+
+run `pip install -r requirements.txt` then `gunicorn -w 1 --threads 100 app:app --bind 0.0.0.0:8080` to run flask with socketio without issues.
