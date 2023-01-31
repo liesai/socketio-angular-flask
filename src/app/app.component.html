@@ -29,12 +29,9 @@
         <th>status</th>
       </tr>
     </thead>
-    <tbody>
-      <tr *ngFor="let item of data">
-        <td>{{ item.offerId }}</td>
-        <td>{{ item.status }}</td>
-
-      </tr>
+    <tr *ngFor="let item of data">
+      <app-table-cell [offerId]="item.offerId" [status]="item.status"></app-table-cell>
+    </tr>
     </tbody>
   </table>
     <ul class="list-unstyled mt-3 mb-4">
